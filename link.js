@@ -11,9 +11,9 @@ const class_3 = document.getElementById('class_3');
 const sel = document.getElementById("class");
 const week = document.getElementById('week');
 
-class_1.style.display = 'none';
-class_2.style.display = 'none';
-class_3.style.display = 'none';
+class_1.style.display = 'inline';
+        class_2.style.display = 'none';
+        class_3.style.display = 'none';
 
 function handleClick1() { //건강
     window.open("https://eduro.dge.go.kr/hcheck/index.jsp", "_blank");
@@ -53,10 +53,6 @@ function handleSelChange() { //select 태그가 변경되었을 시
         class_1.style.display = 'none';
         class_2.style.display = 'none';
         class_3.style.display = 'inline';
-    } else {
-        class_1.style.display = 'none';
-        class_2.style.display = 'none';
-        class_3.style.display = 'none';
     }
 }
 
