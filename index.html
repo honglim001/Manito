@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
         <div class="header">
             <div class="title" id="title">
                 <div class="heading">
-                    학급 도우미
+                    도미
                 </div>
                 <div class="subheading">
                     <i>우리들의 작은 학급도우미</i>
@@ -28,214 +28,219 @@
             </div>
         </div>
         <div class="body">
-            <select id="class">
-                <option value="1">1-1</option>
-                <option value="2">1-2</option>
-                <option value="3">1-3</option>
-            </select>
-            <div class="class_1-1">
-                <table class="classroom_1_1">
-                    <tr>
-                        <td class="classRoom">1-1</td>
-                        <td class="dayOfTheWeek">월</td>
-                        <td class="dayOfTheWeek">화</td>
-                        <td class="dayOfTheWeek">수</td>
-                        <td class="dayOfTheWeek">목</td>
-                        <td class="dayOfTheWeek">금</td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">1교시</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">2교시</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">3교시</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">4교시</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">5교시</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">6교시</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">7교시</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
+            <div class="class">
+                <div id="week">n요일</div>
+                <select id="class">
+                    <option value="choice">반 선택</option>
+                    <option value="1">1-1</option>
+                    <option value="2">1-2</option>
+                    <option value="3">1-3</option>
+                </select>
+                <div class="class_1-1" id="class_1">
+                    <table class="classroom_1_1">
+                        <tr>
+                            <td class="classRoom">1-1</td>
+                            <td class="dayOfTheWeek">월</td>
+                            <td class="dayOfTheWeek">화</td>
+                            <td class="dayOfTheWeek">수</td>
+                            <td class="dayOfTheWeek">목</td>
+                            <td class="dayOfTheWeek">금</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">1교시<br>08:40~09:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">2교시<br>09:40~10:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">3교시<br>10:40~11:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">4교시<br>11:40~12:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">5교시<br>13:20~14:10</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">6교시<br>14:20~15:10</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">7교시<br>15:20~16:10</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="class_1-2" id="class_2">
+                    <table class="classroom_1_2">
+                        <tr>
+                            <td class="classRoom">1-2</td>
+                            <td class="dayOfTheWeek">월</td>
+                            <td class="dayOfTheWeek">화</td>
+                            <td class="dayOfTheWeek">수</td>
+                            <td class="dayOfTheWeek">목</td>
+                            <td class="dayOfTheWeek">금</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">1교시<br>08:40~09:30</td>
+                            <td>자율</td>
+                            <td>자료구조</td>
+                            <td>사회</td>
+                            <td>영어</td>
+                            <td>컴퓨터 그래픽</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">2교시<br>09:40~10:30</td>
+                            <td>사회</td>
+                            <td>자료구조</td>
+                            <td>국어</td>
+                            <td>수학</td>
+                            <td>영어</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">3교시<br>10:40~11:30</td>
+                            <td>미술</td>
+                            <td>국어</td>
+                            <td>전기전자</td>
+                            <td>수학</td>
+                            <td>체육</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">4교시<br>11:40~12:30</td>
+                            <td>영어</td>
+                            <td>진로</td>
+                            <td>전기전자</td>
+                            <td>DB</td>
+                            <td>국어</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">5교시<br>13:20~14:10</td>
+                            <td>과학</td>
+                            <td>미술</td>
+                            <td>과학</td>
+                            <td>자료구조</td>
+                            <td>봉사</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">6교시<br>14:20~15:10</td>
+                            <td>과학</td>
+                            <td>DB</td>
+                            <td>체육</td>
+                            <td>자료구조</td>
+                            <td>동아리</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">7교시<br>15:20~16:10</td>
+                            <td>컴퓨터 그래픽</td>
+                            <td>DB</td>
+                            <td>수학</td>
+                            <td>과학</td>
+                            <td>X</td>
+                        </tr>
+                    </table>
+                </div> <!-- 가로 8 x 세로 6 형태 -->
+                <div class="class_1-3" id="class_3">
+                    <table class="classroom_1_3">
+                        <tr>
+                            <td class="classRoom">1-3</td>
+                            <td class="dayOfTheWeek">월</td>
+                            <td class="dayOfTheWeek">화</td>
+                            <td class="dayOfTheWeek">수</td>
+                            <td class="dayOfTheWeek">목</td>
+                            <td class="dayOfTheWeek">금</td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">1교시<br>08:40~09:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">2교시<br>09:40~10:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">3교시<br>10:40~11:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">4교시<br>11:40~12:30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">5교시<br>13:20~14:10</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">6교시<br>14:20~15:10</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="study_time">7교시<br>15:20~16:10</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div class="class_1-2">
-                <table class="classroom_1_2">
-                    <tr>
-                        <td class="classRoom">1-2</td>
-                        <td class="dayOfTheWeek">월</td>
-                        <td class="dayOfTheWeek">화</td>
-                        <td class="dayOfTheWeek">수</td>
-                        <td class="dayOfTheWeek">목</td>
-                        <td class="dayOfTheWeek">금</td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">1교시</td>
-                        <td>자율</td>
-                        <td>자료구조</td>
-                        <td>사회</td>
-                        <td>영어</td>
-                        <td>컴퓨터 그래픽</td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">2교시</td>
-                        <td>사회</td>
-                        <td>자료구조</td>
-                        <td>국어</td>
-                        <td>수학</td>
-                        <td>영어</td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">3교시</td>
-                        <td>미술</td>
-                        <td>국어</td>
-                        <td>전기전자</td>
-                        <td>수학</td>
-                        <td>체육</td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">4교시</td>
-                        <td>영어</td>
-                        <td>진로</td>
-                        <td>전기전자</td>
-                        <td>DB</td>
-                        <td>국어</td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">5교시</td>
-                        <td>과학</td>
-                        <td>미술</td>
-                        <td>과학</td>
-                        <td>자료구조</td>
-                        <td>봉사</td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">6교시</td>
-                        <td>과학</td>
-                        <td>DB</td>
-                        <td>체육</td>
-                        <td>자료구조</td>
-                        <td>동아리</td>
-                    </tr>
-                    <tr>
-                        <td class="study_time">7교시</td>
-                        <td>컴퓨터 그래픽</td>
-                        <td>DB</td>
-                        <td>수학</td>
-                        <td>과학</td>
-                        <td>X</td>
-                    </tr>
-                </table>
-            </div> <!-- 가로 8 x 세로 6 형태 -->
-            <div class="class_1-3"></div>
-            <table class="classroom_1_3">
-                <tr>
-                    <td class="classRoom">1-3</td>
-                    <td class="dayOfTheWeek">월</td>
-                    <td class="dayOfTheWeek">화</td>
-                    <td class="dayOfTheWeek">수</td>
-                    <td class="dayOfTheWeek">목</td>
-                    <td class="dayOfTheWeek">금</td>
-                </tr>
-                <tr>
-                    <td class="study_time">1교시</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="study_time">2교시</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="study_time">3교시</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="study_time">4교시</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="study_time">5교시</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="study_time">6교시</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="study_time">7교시</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
         </div>
         <div class="footer">
             <div class="discord_id">
@@ -244,11 +249,15 @@
             <div class="dgsw_logo">
                 <img src="./assets/dgsw.png" class="logo">
             </div>
+            <div class="x">X</div>
+            <div class="cad_logo">
+                <img src="./assets/cad.png" alt="" class="cad_logo">
+            </div>
             <div class="makers">
                 <div class="maker">
                     홍준혁<br>
                     임재현<br>
-                    허새찬
+                    조민수
                 </div>
             </div>
         </div>

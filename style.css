@@ -71,9 +71,18 @@ body {
   width: 100%;
   height: 620px;
   box-shadow: 0px 2px 5px 0px rgba(138, 138, 138, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
 }
-
+#week{
+  display: inline;
+  font-size: 30px;
+  margin-right: 100px;
+}
 .footer {
+  user-select: none;
   margin-top: 10px;
   width: 100%;
   height: 150px;
@@ -91,6 +100,9 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #eff8fb;
+  -webkit-user-select: text;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 #class {
@@ -112,29 +124,32 @@ table {
 
 td {
   margin: 0px;
-  border: 1px solid gray;
+  box-shadow: 0px 2px 5px 0px rgba(138, 138, 138, 1);
   height: 60px;
   width: 120px;
   text-align: center;
 }
 .dayOfTheWeek {
   background-color: #efeffb;
+  font-weight: bolder;
 }
 .study_time {
   background-color: #effbf5;
+  font-weight: bolder;
 }
 .classRoom {
   background-color: #fbfbef;
+  font-size: 30px;
 }
 .logo {
   height: 130px;
 }
-.classroom_1_1 {
-  display: none;
+.x{
+  font-size: 50px;
 }
-.classroom_1_2 {
-  display: inline;
+.cad_logo{
+  height: 100px;
 }
-.classroom_1_3 {
-  display: none;
+.discord_id{
+  user-select: text;
 }
