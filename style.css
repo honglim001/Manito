@@ -129,8 +129,11 @@ td {
 .logo {
   height: 130px;
 }
-.classroom_1_2 {
+.classroom_1_1 {
   display: none;
+}
+.classroom_1_2 {
+  display: inline;
 }
 .classroom_1_3 {
   display: none;
