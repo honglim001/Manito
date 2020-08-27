@@ -54,14 +54,32 @@ body {
   border-radius: 70px;
   cursor: pointer;
   -webkit-user-select: none;
+  transition: background-color 0.4s, margin-right 1s, margin-left 1s;
+}
+
+#menu_1:hover {
+  background-color: #ece0f8;
+}
+#menu_2:hover {
+  background-color: #e6f8e0;
+}
+#menu_3:hover {
+  background-color: #f8e0f1;
+}
+#menu_4:hover {
+  background-color: #e0f8f1;
+}
+#menu_5:hover {
+  background-color: #f7f8e0;
 }
 
 .menu:hover {
-  background-color: darkgrey;
+  background-color: #f5a9f2;
+  margin-right: 40px;
+  margin-left: 20px;
 }
 
 .menu:active {
-  background-color: dimgrey;
   transform: scale(0.9);
   transition: 0.3s ease;
 }
@@ -76,11 +94,10 @@ body {
   align-items: center;
   user-select: none;
 }
-#week{
+#week {
   display: inline;
   font-size: 30px;
   margin-right: 200px;
-
 }
 .footer {
   user-select: none;
@@ -140,18 +157,21 @@ td {
   font-weight: bolder;
 }
 .classRoom {
-  background-color: #fbfbef;
+  background-color: #f8ece0;
   font-size: 30px;
+}
+.subject {
+  background-color: #fbfbef;
 }
 .logo {
   height: 130px;
 }
-.x{
+.x {
   font-size: 50px;
 }
-.cad_logo{
+.cad_logo {
   height: 100px;
 }
-.discord_id{
+.discord_id {
   user-select: text;
 }
