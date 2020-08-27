@@ -34,12 +34,12 @@ body {
 .title:hover {
   cursor: pointer;
   transform: scale(1.1);
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .title:not(:hover) {
   transform: scale(0.9);
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .menus {
@@ -54,7 +54,7 @@ body {
   border-radius: 70px;
   cursor: pointer;
   -webkit-user-select: none;
-  transition: background-color 0.4s, margin-right 1s, margin-left 1s;
+  transition: background-color 0.4s, margin-right 0.2s, margin-left 0.2s;
 }
 
 #menu_1:hover {
@@ -162,6 +162,12 @@ td {
 }
 .subject {
   background-color: #fbfbef;
+  transition: 0.1s ease-in-out;
+}
+.subject:hover{
+  background-color : #f797a1;
+  transform: scale(1.2);
+  font-weight: bolder;
 }
 .logo {
   height: 130px;
