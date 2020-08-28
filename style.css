@@ -41,32 +41,37 @@ body {
 }
 
 .menu {
-  padding: 10px;
   box-shadow: 0px 2px 5px 0px rgba(138, 138, 138, 1);
   border-radius: 70px;
   cursor: pointer;
   -webkit-user-select: none;
-  transition: background-color 0.4s, margin-right 0.2s, margin-left 0.2s;
-  font-size: 15px;
+  transition: background-color 0.4s, margin-right 0.8s, margin-left 0.8s;
+  font-size: 18px;
   padding: 20px;
 }
 
 #menu_1:hover {
   background-color: #ece0f8;
+  margin-right: 10px;
 }
 #menu_2:hover {
   background-color: #e6f8e0;
+  margin-right: 30px;
+  margin-left: 10px;
 }
 #menu_3:hover {
   background-color: #f8e0f1;
-
+  margin-right: 30px;
+  margin-left: 30px;
 }
 #menu_4:hover {
   background-color: #e0f8f1;
+  margin-right: 15px;
+  margin-left: 40px;
 }
 #menu_5:hover {
   background-color: #f7f8e0;
-
+  margin-left: 30px;
 }
 
 .menu:active {
@@ -154,8 +159,8 @@ td {
   background-color: #fbfbef;
   transition: 0.1s ease-in-out;
 }
-.subject:hover{
-  background-color : #f797a1;
+.subject:hover {
+  background-color: #f797a1;
   transform: scale(1.2);
   font-weight: bolder;
 }
@@ -167,7 +172,6 @@ td {
 }
 .cad_logo {
   height: 70px;
-
 }
 .discord_id {
   user-select: text;
