@@ -97,5 +97,5 @@ function init() {
 function getWeek() {
     week.innerText = getTodayLabel();
 }
-getWeek();
+setInterval(getWeek,10);
 init();
