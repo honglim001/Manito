@@ -53,6 +53,7 @@ function handleSelChange() {
         class_1.style.display = "inline";
         class_2.style.display = "none";
         class_3.style.display = "none";
+        
     } else if (index == 2) {
         class_1.style.display = "none";
         class_2.style.display = "inline";
@@ -81,7 +82,7 @@ function getTodayLabel() {
 
     var today = new Date().getDay();
     var todayLabel = week[today];
-    return todayLabel + "시간표";
+    return todayLabel + " 시간표";
 }
 
 function init() {
